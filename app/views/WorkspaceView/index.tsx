@@ -10,7 +10,6 @@ import Button from '../../containers/Button';
 import { useWorkspaceDomain } from '../../lib/hooks/useWorkspaceDomain';
 import { useTheme } from '../../theme';
 import FormContainer, { FormContainerInner } from '../../containers/FormContainer';
-import { type IAssetsFavicon512 } from '../../definitions/IAssetsFavicon512';
 import { getShowLoginButton } from '../../selectors/login';
 import ServerAvatar from './ServerAvatar';
 import styles from './styles';
@@ -27,7 +26,6 @@ const useWorkspaceViewSelector = () =>
 		server: state.server.server,
 		Site_Name: state.settings.Site_Name as string,
 		Site_Url: state.settings.Site_Url as string,
-		Assets_favicon_512: state.settings.Assets_favicon_512 as IAssetsFavicon512,
 		registrationForm: state.settings.Accounts_RegistrationForm as string,
 		Accounts_iframe_enabled: state.settings.Accounts_iframe_enabled as boolean,
 		showLoginButton: getShowLoginButton(state),
@@ -43,7 +41,6 @@ const WorkspaceView = () => {
 
 	const {
 		Accounts_iframe_enabled,
-		Assets_favicon_512,
 		Site_Name,
 		Site_Url,
 		inviteLinkToken,
@@ -79,16 +76,16 @@ const WorkspaceView = () => {
 		<FormContainer testID='workspace-view'>
 			<FormContainerInner>
 				<View style={styles.alignItemsCenter}>
-					<ServerAvatar url={server} image={Assets_favicon_512?.url ?? Assets_favicon_512?.defaultUrl} />
-					<Text style={[styles.serverName, { color: colors.fontTitlesLabels }]}>{Site_Name}</Text>
-					<Text style={[styles.serverUrl, { color: colors.fontSecondaryInfo }]}>{Site_Url}</Text>
+					<ServerAvatar />
+					{/* <Text style={[styles.serverName, { color: colors.fontTitlesLabels }]}>{Site_Name}</Text>
+					<Text style={[styles.serverUrl, { color: colors.fontSecondaryInfo }]}>{Site_Url}</Text> */}
 				</View>
 				{showLoginButton ? <Button title={I18n.t('Login')} type='primary' onPress={login} testID='workspace-view-login' /> : null}
-				{showRegistrationButton ? (
+				{/* {showRegistrationButton ? (
 					<Button title={I18n.t('Create_account')} type='secondary' onPress={register} testID='workspace-view-register' />
 				) : (
 					<RegisterDisabledComponent />
-				)}
+				)} */}
 			</FormContainerInner>
 		</FormContainer>
 	);

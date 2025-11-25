@@ -1,7 +1,7 @@
 import { serializeAsciiUrl } from './serializeAsciiUrl';
 
 const ASCIIUrl = 'https://чат24.рф';
-const NonASCIIUrl = 'open.rocket.chat';
+const NonASCIIUrl = 'chat.vinatex.com.vn';
 const ASCIIUrlSerialized = 'https://xn--24-6kc6exa.xn--p1ai';
 
 describe('Serialize ASCII url on ios', () => {

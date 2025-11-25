@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
 	}
 });
 
-const server = 'https://open.rocket.chat';
+const server = 'https://chat.vinatex.com.vn';
 
 export default {
 	title: 'Avatar'

@@ -33,7 +33,7 @@ const longNameAuthor = {
 	username: 'Long name user looooong name user'
 };
 
-const baseUrl = 'https://open.rocket.chat';
+const baseUrl = 'https://chat.vinatex.com.vn';
 const date = new Date(2017, 10, 10, 10);
 const longText =
 	'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
@@ -1505,7 +1505,7 @@ export const URL = () => (
 			urls={[
 				{
 					url: 'https://rocket.chat',
-					image: 'https://open.rocket.chat/assets/logo.png',
+					image: 'https://chat.vinatex.com.vn/assets/logo.png',
 					title: 'Rocket.Chat - Free, Open Source, Enterprise Team Chat',
 					description:
 						'Rocket.Chat is the leading open source team chat software solution. Free, unlimited and completely customizable with on-premises and SaaS cloud hosting.'
@@ -1549,7 +1549,7 @@ export const URLLargeFont = () => (
 			urls={[
 				{
 					url: 'https://rocket.chat',
-					image: 'https://open.rocket.chat/assets/logo.png',
+					image: 'https://chat.vinatex.com.vn/assets/logo.png',
 					title: 'Rocket.Chat - Free, Open Source, Enterprise Team Chat',
 					description:
 						'Rocket.Chat is the leading open source team chat software solution. Free, unlimited and completely customizable with on-premises and SaaS cloud hosting.'

@@ -11,7 +11,7 @@ import { initStore } from '../app/lib/store/auxStore';
 
 initStore(store);
 
-const baseUrl = 'https://open.rocket.chat';
+const baseUrl = 'https://chat.vinatex.com.vn';
 store.dispatch(selectServerRequest(baseUrl, '7.0.0'));
 store.dispatch(setUser({ id: 'abc', username: 'rocket.cat', name: 'Rocket Cat' }));
 

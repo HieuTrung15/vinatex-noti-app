@@ -158,7 +158,7 @@ exports[`Story Snapshots: ReactionsListFullName should match snapshot 1`] = `
               source={
                 [
                   {
-                    "uri": "https://open.rocket.chat/emoji-custom/marioparty.gif",
+                    "uri": "https://chat.vinatex.com.vn/emoji-custom/marioparty.gif",
                   },
                 ]
               }
@@ -256,7 +256,7 @@ exports[`Story Snapshots: ReactionsListFullName should match snapshot 1`] = `
               source={
                 [
                   {
-                    "uri": "https://open.rocket.chat/emoji-custom/react_rocket.png",
+                    "uri": "https://chat.vinatex.com.vn/emoji-custom/react_rocket.png",
                   },
                 ]
               }
@@ -354,7 +354,7 @@ exports[`Story Snapshots: ReactionsListFullName should match snapshot 1`] = `
               source={
                 [
                   {
-                    "uri": "https://open.rocket.chat/emoji-custom/nyan_rocket.png",
+                    "uri": "https://chat.vinatex.com.vn/emoji-custom/nyan_rocket.png",
                   },
                 ]
               }
@@ -670,7 +670,7 @@ exports[`Story Snapshots: ReactionsListFullName should match snapshot 1`] = `
                   source={
                     [
                       {
-                        "uri": "https://open.rocket.chat/emoji-custom/marioparty.gif",
+                        "uri": "https://chat.vinatex.com.vn/emoji-custom/marioparty.gif",
                       },
                     ]
                   }
@@ -764,7 +764,7 @@ exports[`Story Snapshots: ReactionsListFullName should match snapshot 1`] = `
                   source={
                     [
                       {
-                        "uri": "https://open.rocket.chat/emoji-custom/react_rocket.png",
+                        "uri": "https://chat.vinatex.com.vn/emoji-custom/react_rocket.png",
                       },
                     ]
                   }
@@ -858,7 +858,7 @@ exports[`Story Snapshots: ReactionsListFullName should match snapshot 1`] = `
                   source={
                     [
                       {
-                        "uri": "https://open.rocket.chat/emoji-custom/nyan_rocket.png",
+                        "uri": "https://chat.vinatex.com.vn/emoji-custom/nyan_rocket.png",
                       },
                     ]
                   }
@@ -1233,7 +1233,7 @@ exports[`Story Snapshots: ReactionsListStory should match snapshot 1`] = `
               source={
                 [
                   {
-                    "uri": "https://open.rocket.chat/emoji-custom/marioparty.gif",
+                    "uri": "https://chat.vinatex.com.vn/emoji-custom/marioparty.gif",
                   },
                 ]
               }
@@ -1331,7 +1331,7 @@ exports[`Story Snapshots: ReactionsListStory should match snapshot 1`] = `
               source={
                 [
                   {
-                    "uri": "https://open.rocket.chat/emoji-custom/react_rocket.png",
+                    "uri": "https://chat.vinatex.com.vn/emoji-custom/react_rocket.png",
                   },
                 ]
               }
@@ -1429,7 +1429,7 @@ exports[`Story Snapshots: ReactionsListStory should match snapshot 1`] = `
               source={
                 [
                   {
-                    "uri": "https://open.rocket.chat/emoji-custom/nyan_rocket.png",
+                    "uri": "https://chat.vinatex.com.vn/emoji-custom/nyan_rocket.png",
                   },
                 ]
               }
@@ -1745,7 +1745,7 @@ exports[`Story Snapshots: ReactionsListStory should match snapshot 1`] = `
                   source={
                     [
                       {
-                        "uri": "https://open.rocket.chat/emoji-custom/marioparty.gif",
+                        "uri": "https://chat.vinatex.com.vn/emoji-custom/marioparty.gif",
                       },
                     ]
                   }
@@ -1839,7 +1839,7 @@ exports[`Story Snapshots: ReactionsListStory should match snapshot 1`] = `
                   source={
                     [
                       {
-                        "uri": "https://open.rocket.chat/emoji-custom/react_rocket.png",
+                        "uri": "https://chat.vinatex.com.vn/emoji-custom/react_rocket.png",
                       },
                     ]
                   }
@@ -1933,7 +1933,7 @@ exports[`Story Snapshots: ReactionsListStory should match snapshot 1`] = `
                   source={
                     [
                       {
-                        "uri": "https://open.rocket.chat/emoji-custom/nyan_rocket.png",
+                        "uri": "https://chat.vinatex.com.vn/emoji-custom/nyan_rocket.png",
                       },
                     ]
                   }

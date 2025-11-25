@@ -528,7 +528,7 @@
   "Whats_the_password_for_your_certificate": "証明書のパスワードはなんですか？",
   "Without_Servers": "サーバーを除く",
   "Workspace_URL": "ワークスペースのURL",
-  "Workspace_URL_Example": "open.rocket.chat",
+  "Workspace_URL_Example": "chat.vinatex.com.vn",
   "Write_External_Permission": "ギャラリーへのアクセス許可",
   "Write_External_Permission_Message": "Rocket.Chatは画像を保存するためにギャラリーへのアクセスを求めています。",
   "Yes_action_it": "はい、{{action}}します！",

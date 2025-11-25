@@ -93,7 +93,7 @@ exports[`Story Snapshots: AvatarPath should match snapshot 1`] = `
       [
         {
           "headers": undefined,
-          "uri": "https://open.rocket.chat/avatar/diego.mello?format=png&size=112",
+          "uri": "https://chat.vinatex.com.vn/avatar/diego.mello?format=png&size=112",
         },
       ]
     }
@@ -148,7 +148,7 @@ exports[`Story Snapshots: AvatarRoomId should match snapshot 1`] = `
       [
         {
           "headers": undefined,
-          "uri": "https://open.rocket.chat/avatar/room/devWBbYr7inwupPqK?format=png&size=112",
+          "uri": "https://chat.vinatex.com.vn/avatar/room/devWBbYr7inwupPqK?format=png&size=112",
         },
       ]
     }
@@ -203,7 +203,7 @@ exports[`Story Snapshots: AvatarText should match snapshot 1`] = `
       [
         {
           "headers": undefined,
-          "uri": "https://open.rocket.chat/avatar/Avatar?format=png&size=112",
+          "uri": "https://chat.vinatex.com.vn/avatar/Avatar?format=png&size=112",
         },
       ]
     }
@@ -313,7 +313,7 @@ exports[`Story Snapshots: Channel should match snapshot 1`] = `
       [
         {
           "headers": undefined,
-          "uri": "https://open.rocket.chat/avatar/@general?format=png&size=112",
+          "uri": "https://chat.vinatex.com.vn/avatar/@general?format=png&size=112",
         },
       ]
     }
@@ -368,7 +368,7 @@ exports[`Story Snapshots: Children should match snapshot 1`] = `
       [
         {
           "headers": undefined,
-          "uri": "https://open.rocket.chat/avatar/Avatar?format=png&size=112",
+          "uri": "https://chat.vinatex.com.vn/avatar/Avatar?format=png&size=112",
         },
       ]
     }
@@ -463,7 +463,7 @@ exports[`Story Snapshots: CustomBorderRadius should match snapshot 1`] = `
       [
         {
           "headers": undefined,
-          "uri": "https://open.rocket.chat/avatar/Avatar?format=png&size=112",
+          "uri": "https://chat.vinatex.com.vn/avatar/Avatar?format=png&size=112",
         },
       ]
     }
@@ -520,7 +520,7 @@ exports[`Story Snapshots: CustomStyle should match snapshot 1`] = `
       [
         {
           "headers": undefined,
-          "uri": "https://open.rocket.chat/avatar/Avatar?format=png&size=112",
+          "uri": "https://chat.vinatex.com.vn/avatar/Avatar?format=png&size=112",
         },
       ]
     }
@@ -575,7 +575,7 @@ exports[`Story Snapshots: Direct should match snapshot 1`] = `
       [
         {
           "headers": undefined,
-          "uri": "https://open.rocket.chat/avatar/diego.mello?format=png&size=112",
+          "uri": "https://chat.vinatex.com.vn/avatar/diego.mello?format=png&size=112",
         },
       ]
     }
@@ -628,7 +628,7 @@ exports[`Story Snapshots: Emoji should match snapshot 1`] = `
     source={
       [
         {
-          "uri": "https://open.rocket.chat/emoji-custom/troll.jpg",
+          "uri": "https://chat.vinatex.com.vn/emoji-custom/troll.jpg",
         },
       ]
     }
@@ -827,7 +827,7 @@ exports[`Story Snapshots: Touchable should match snapshot 1`] = `
         [
           {
             "headers": undefined,
-            "uri": "https://open.rocket.chat/avatar/Avatar?format=png&size=112",
+            "uri": "https://chat.vinatex.com.vn/avatar/Avatar?format=png&size=112",
           },
         ]
       }
@@ -883,7 +883,7 @@ exports[`Story Snapshots: WithETag should match snapshot 1`] = `
       [
         {
           "headers": undefined,
-          "uri": "https://open.rocket.chat/avatar/djorkaeff.alexandre?format=png&size=112&etag=5ag8KffJcZj9m5rCv",
+          "uri": "https://chat.vinatex.com.vn/avatar/djorkaeff.alexandre?format=png&size=112&etag=5ag8KffJcZj9m5rCv",
         },
       ]
     }
@@ -938,7 +938,7 @@ exports[`Story Snapshots: WithoutETag should match snapshot 1`] = `
       [
         {
           "headers": undefined,
-          "uri": "https://open.rocket.chat/avatar/djorkaeff.alexandre?format=png&size=112",
+          "uri": "https://chat.vinatex.com.vn/avatar/djorkaeff.alexandre?format=png&size=112",
         },
       ]
     }

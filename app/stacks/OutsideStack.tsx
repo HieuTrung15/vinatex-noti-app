@@ -23,12 +23,12 @@ const OutsideStackComponent = () => {
 	const { theme } = React.useContext(ThemeContext);
 
 	return (
-		<Outside.Navigator screenOptions={themedHeader(theme)}>
+		<Outside.Navigator initialRouteName='LoginView' screenOptions={themedHeader(theme)}>
 			{/* @ts-ignore */}
 			{/* <Outside.Screen name='NewServerView' component={NewServerView} options={NewServerView.navigationOptions} /> */}
 			<Outside.Screen name='WorkspaceView' component={WorkspaceView} options={defaultHeader} />
 
-			<Outside.Screen name='LoginView' component={LoginView} options={defaultHeader} />
+			<Outside.Screen name='LoginView' component={LoginView} options={{ ...defaultHeader,  headerShown: false }} />
 			<Outside.Screen name='ForgotPasswordView' component={ForgotPasswordView} options={defaultHeader} />
 			<Outside.Screen name='SendEmailConfirmationView' component={SendEmailConfirmationView} options={defaultHeader} />
 			{/* @ts-ignore */}

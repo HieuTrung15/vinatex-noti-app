@@ -198,7 +198,7 @@ const SettingsView = (): React.ReactElement => {
 					<List.Separator />
 				</List.Section>
 
-				<List.Section>
+				{/* <List.Section>
 					<List.Separator />
 					<List.Item
 						title='Get_help'
@@ -269,17 +269,17 @@ const SettingsView = (): React.ReactElement => {
 						left={() => <List.Icon name='desktop' />}
 					/>
 					<List.Separator />
-				</List.Section>
+				</List.Section> */}
 
 				<List.Section>
-					<List.Separator />
+					{/* <List.Separator />
 					<List.Item
 						title='Clear_cache'
 						testID='settings-view-clear-cache'
 						onPress={handleClearCache}
 						color={colors.fontDanger}
 						left={() => <List.Icon name='prune' color={colors.fontDanger} />}
-					/>
+					/> */}
 					<List.Separator />
 					<List.Item
 						title='Logout'

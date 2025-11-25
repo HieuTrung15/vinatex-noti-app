@@ -9,7 +9,7 @@ const user = {
 	token: 'abc'
 };
 
-const baseUrl = 'https://open.rocket.chat';
+const baseUrl = 'https://chat.vinatex.com.vn';
 
 export default {
 	title: 'UIKit/UiKitModal',

@@ -33,24 +33,24 @@ describe('Format preview message', () => {
 		const formattedText = usePreviewFormatText('<http://link|Text>');
 		expect(formattedText).toBe('Text');
 	});
-	test('Format "[ ](https://open.rocket.chat/) Test" to be Test', () => {
-		const formattedText = usePreviewFormatText('[ ](https://open.rocket.chat/) Test');
+	test('Format "[ ](https://chat.vinatex.com.vn/) Test" to be Test', () => {
+		const formattedText = usePreviewFormatText('[ ](https://chat.vinatex.com.vn/) Test');
 		expect(formattedText).toEqual('Test');
 	});
-	test('Format "[Open](https://open.rocket.chat/) Test" to be Test', () => {
-		const formattedText = usePreviewFormatText('[Open](https://open.rocket.chat/) Test');
+	test('Format "[Open](https://chat.vinatex.com.vn/) Test" to be Test', () => {
+		const formattedText = usePreviewFormatText('[Open](https://chat.vinatex.com.vn/) Test');
 		expect(formattedText).toBe('Open Test');
 	});
 	test('render test (arabic)', () => {
-		const formattedText = usePreviewFormatText('[ ](https://open.rocket.chat/) اختبا');
+		const formattedText = usePreviewFormatText('[ ](https://chat.vinatex.com.vn/) اختبا');
 		expect(formattedText).toBe('اختبا');
 	});
 	test('render test (russian)', () => {
-		const formattedText = usePreviewFormatText('[ ](https://open.rocket.chat/) тест123');
+		const formattedText = usePreviewFormatText('[ ](https://chat.vinatex.com.vn/) тест123');
 		expect(formattedText).toBe('тест123');
 	});
-	test('Format a quote message as last message "You: [ ](https://open.rocket.chat/group/channel?msg=nrTDSw96IhtF3iN4K) \nTest"', () => {
-		const formattedText = usePreviewFormatText('You: [ ](https://open.rocket.chat/group/channel?msg=nrTDSw96IhtF3iN4K) \nTest');
+	test('Format a quote message as last message "You: [ ](https://chat.vinatex.com.vn/group/channel?msg=nrTDSw96IhtF3iN4K) \nTest"', () => {
+		const formattedText = usePreviewFormatText('You: [ ](https://chat.vinatex.com.vn/group/channel?msg=nrTDSw96IhtF3iN4K) \nTest');
 		expect(formattedText).toBe('You: Test');
 	});
 	test('Format a bold message as last message "You: **Test**" to be "You: Test"', () => {

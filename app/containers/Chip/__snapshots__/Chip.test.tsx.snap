@@ -104,7 +104,7 @@ exports[`Story Snapshots: ChipText should match snapshot 1`] = `
             [
               {
                 "headers": undefined,
-                "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=56",
+                "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=56",
               },
             ]
           }
@@ -282,7 +282,7 @@ exports[`Story Snapshots: ChipWithShortText should match snapshot 1`] = `
             [
               {
                 "headers": undefined,
-                "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=56",
+                "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=56",
               },
             ]
           }
@@ -680,7 +680,7 @@ exports[`Story Snapshots: ChipWithoutIcon should match snapshot 1`] = `
             [
               {
                 "headers": undefined,
-                "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=56",
+                "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=56",
               },
             ]
           }

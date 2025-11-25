@@ -235,11 +235,13 @@ const handleServerRequest = function* handleServerRequest({ server, username, fr
 		if (serverInfo) {
 			yield getLoginServices(server);
 			yield getLoginSettings({ server, serverVersion: serverInfo.version });
-			Navigation.navigate('WorkspaceView');
 
 			const Accounts_iframe_enabled = yield* appSelector(state => state.settings.Accounts_iframe_enabled);
-			if (fromServerHistory && !Accounts_iframe_enabled) {
-				Navigation.navigate('LoginView', { username });
+			if (Accounts_iframe_enabled) {
+				Navigation.navigate('AuthenticationWebView', { url: server, authType: 'iframe' });
+			} else {
+				const loginParams = fromServerHistory ? { username } : undefined;
+				Navigation.navigate('LoginView', loginParams);
 			}
 
 			yield serversDB.write(async () => {

@@ -10,17 +10,17 @@ describe('FormatText', () => {
 	test('Format <http://link|Text> to be <http://link|Text>', () => {
 		expect(formatHyperlink('<http://link|Text>')).toBe('<http://link|Text>');
 	});
-	test('Format "[ ](https://open.rocket.chat/) Test" to be Test', () => {
-		expect(formatHyperlink('[ ](https://open.rocket.chat/) Test')).toBe('Test');
+	test('Format "[ ](https://chat.vinatex.com.vn/) Test" to be Test', () => {
+		expect(formatHyperlink('[ ](https://chat.vinatex.com.vn/) Test')).toBe('Test');
 	});
-	test('Format "[Open](https://open.rocket.chat/) Test" to be Test', () => {
-		expect(formatHyperlink('[Open](https://open.rocket.chat/) Test')).toBe('[Open](https://open.rocket.chat/) Test');
+	test('Format "[Open](https://chat.vinatex.com.vn/) Test" to be Test', () => {
+		expect(formatHyperlink('[Open](https://chat.vinatex.com.vn/) Test')).toBe('[Open](https://chat.vinatex.com.vn/) Test');
 	});
 	test('render test (arabic)', () => {
-		expect(formatHyperlink('[ ](https://open.rocket.chat/) اختبا')).toBe('اختبا');
+		expect(formatHyperlink('[ ](https://chat.vinatex.com.vn/) اختبا')).toBe('اختبا');
 	});
 
 	test('render test (russian)', () => {
-		expect(formatHyperlink('[ ](https://open.rocket.chat/) тест123')).toBe('тест123');
+		expect(formatHyperlink('[ ](https://chat.vinatex.com.vn/) тест123')).toBe('тест123');
 	});
 });

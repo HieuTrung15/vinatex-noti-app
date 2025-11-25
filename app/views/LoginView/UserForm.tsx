@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Keyboard, Text, View, Alert } from 'react-native';
+import { Keyboard, Text, View, Alert, Image } from 'react-native';
 import { useDispatch } from 'react-redux';
 import { type RouteProp, useNavigation, useRoute } from '@react-navigation/native';
 import { type NativeStackNavigationProp } from '@react-navigation/native-stack';
@@ -36,9 +36,8 @@ const UserForm = () => {
 	const navigation = useNavigation<NativeStackNavigationProp<OutsideParamList, 'LoginView'>>();
 	const workspaceDomain = useWorkspaceDomain();
 
-	const {
-		params: { username }
-	} = useRoute<RouteProp<OutsideParamList, 'LoginView'>>();
+	const route = useRoute<RouteProp<OutsideParamList, 'LoginView'>>();
+	const username = route.params?.username;
 
 	const {
 		control,
@@ -102,7 +101,9 @@ const UserForm = () => {
 
 	return (
 		<>
-			<Text style={[styles.title, sharedStyles.textBold, { color: colors.fontTitlesLabels }]}>{I18n.t('Login')}</Text>
+		<Image source={require('../../static/images/logo.png')} style={styles.logo} resizeMode='contain' />
+		<View style={styles.container}>
+			{/* <Text style={[sharedStyles.textBold, styles.title, { color: colors.fontTitlesLabels }]}>{I18n.t('Login')}</Text> */}
 			<View style={styles.credentialsContainer}>
 				<ControlledFormTextInput
 					name='user'
@@ -149,7 +150,7 @@ const UserForm = () => {
 						/>
 					</View>
 				)}
-				{showRegistrationButton ? (
+				{/* {showRegistrationButton ? (
 					<View style={styles.bottomContainerGroup}>
 						<Text style={[styles.bottomContainerText, { color: colors.fontSecondaryInfo }]}>
 							{I18n.t('You_dont_have_account')}
@@ -161,8 +162,9 @@ const UserForm = () => {
 						{Accounts_RegistrationForm_LinkReplacementText}
 					</Text>
 				)}
-				<UGCRules />
+				<UGCRules /> */}
 			</View>
+		</View>
 		</>
 	);
 };

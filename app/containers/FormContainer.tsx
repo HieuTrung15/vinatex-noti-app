@@ -33,14 +33,14 @@ export const FormContainerInner = ({
 	</View>
 );
 
-const FormContainer = ({ children, testID, showAppVersion = true, ...props }: IFormContainer) => {
+const FormContainer = ({ children, testID, showAppVersion = true, contentContainerStyle, ...props }: IFormContainer) => {
 	const { colors } = useTheme();
 
 	return (
 		<KeyboardView>
 			<ScrollView
 				style={sharedStyles.container}
-				contentContainerStyle={[sharedStyles.containerScrollView, styles.scrollView]}
+				contentContainerStyle={[sharedStyles.containerScrollView, styles.scrollView, contentContainerStyle]}
 				{...scrollPersistTaps}
 				{...props}>
 				<SafeAreaView testID={testID} style={{ backgroundColor: colors.surfaceRoom }}>

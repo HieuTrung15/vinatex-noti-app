@@ -35,7 +35,7 @@ exports[`Story Snapshots: Content should match snapshot 1`] = `
         },
       ]
     }
-    testID="server-item-https://open.rocket.chat/"
+    testID="server-item-https://chat.vinatex.com.vn/"
     underlayColor="#E4E7EA"
   >
     <View
@@ -95,7 +95,7 @@ exports[`Story Snapshots: Content should match snapshot 1`] = `
           source={
             [
               {
-                "uri": "https://open.rocket.chat/images/logo/android-chrome-512x512.png",
+                "uri": "https://chat.vinatex.com.vn/images/logo/android-chrome-512x512.png",
               },
             ]
           }
@@ -156,7 +156,7 @@ exports[`Story Snapshots: Content should match snapshot 1`] = `
               ]
             }
           >
-            https://open.rocket.chat/
+            https://chat.vinatex.com.vn/
           </Text>
         </View>
         <Text
@@ -281,7 +281,7 @@ exports[`Story Snapshots: Content should match snapshot 1`] = `
           source={
             [
               {
-                "uri": "https://open.rocket.chat/images/logo/android-chrome-512x512.png",
+                "uri": "https://chat.vinatex.com.vn/images/logo/android-chrome-512x512.png",
               },
             ]
           }
@@ -441,7 +441,7 @@ exports[`Story Snapshots: Content should match snapshot 1`] = `
           source={
             [
               {
-                "uri": "https://open.rocket.chat/images/logo/android-chrome-512x512.png",
+                "uri": "https://chat.vinatex.com.vn/images/logo/android-chrome-512x512.png",
               },
             ]
           }
@@ -546,7 +546,7 @@ exports[`Story Snapshots: Themes should match snapshot 1`] = `
         },
       ]
     }
-    testID="server-item-https://open.rocket.chat/"
+    testID="server-item-https://chat.vinatex.com.vn/"
     underlayColor="#E4E7EA"
   >
     <View
@@ -606,7 +606,7 @@ exports[`Story Snapshots: Themes should match snapshot 1`] = `
           source={
             [
               {
-                "uri": "https://open.rocket.chat/images/logo/android-chrome-512x512.png",
+                "uri": "https://chat.vinatex.com.vn/images/logo/android-chrome-512x512.png",
               },
             ]
           }
@@ -667,7 +667,7 @@ exports[`Story Snapshots: Themes should match snapshot 1`] = `
               ]
             }
           >
-            https://open.rocket.chat/
+            https://chat.vinatex.com.vn/
           </Text>
         </View>
       </View>
@@ -706,7 +706,7 @@ exports[`Story Snapshots: Themes should match snapshot 1`] = `
         },
       ]
     }
-    testID="server-item-https://open.rocket.chat/"
+    testID="server-item-https://chat.vinatex.com.vn/"
     underlayColor="#2D3039"
   >
     <View
@@ -766,7 +766,7 @@ exports[`Story Snapshots: Themes should match snapshot 1`] = `
           source={
             [
               {
-                "uri": "https://open.rocket.chat/images/logo/android-chrome-512x512.png",
+                "uri": "https://chat.vinatex.com.vn/images/logo/android-chrome-512x512.png",
               },
             ]
           }
@@ -827,7 +827,7 @@ exports[`Story Snapshots: Themes should match snapshot 1`] = `
               ]
             }
           >
-            https://open.rocket.chat/
+            https://chat.vinatex.com.vn/
           </Text>
         </View>
       </View>
@@ -866,7 +866,7 @@ exports[`Story Snapshots: Themes should match snapshot 1`] = `
         },
       ]
     }
-    testID="server-item-https://open.rocket.chat/"
+    testID="server-item-https://chat.vinatex.com.vn/"
     underlayColor="#16181a"
   >
     <View
@@ -926,7 +926,7 @@ exports[`Story Snapshots: Themes should match snapshot 1`] = `
           source={
             [
               {
-                "uri": "https://open.rocket.chat/images/logo/android-chrome-512x512.png",
+                "uri": "https://chat.vinatex.com.vn/images/logo/android-chrome-512x512.png",
               },
             ]
           }
@@ -987,7 +987,7 @@ exports[`Story Snapshots: Themes should match snapshot 1`] = `
               ]
             }
           >
-            https://open.rocket.chat/
+            https://chat.vinatex.com.vn/
           </Text>
         </View>
       </View>
@@ -1030,7 +1030,7 @@ exports[`Story Snapshots: Touchable should match snapshot 1`] = `
       },
     ]
   }
-  testID="server-item-https://open.rocket.chat/"
+  testID="server-item-https://chat.vinatex.com.vn/"
   underlayColor="#E4E7EA"
 >
   <View
@@ -1090,7 +1090,7 @@ exports[`Story Snapshots: Touchable should match snapshot 1`] = `
         source={
           [
             {
-              "uri": "https://open.rocket.chat/images/logo/android-chrome-512x512.png",
+              "uri": "https://chat.vinatex.com.vn/images/logo/android-chrome-512x512.png",
             },
           ]
         }
@@ -1151,7 +1151,7 @@ exports[`Story Snapshots: Touchable should match snapshot 1`] = `
             ]
           }
         >
-          https://open.rocket.chat/
+          https://chat.vinatex.com.vn/
         </Text>
       </View>
     </View>

@@ -12,20 +12,19 @@ import UserForm from './UserForm';
 const LoginView = () => {
 	const navigation = useNavigation<NativeStackNavigationProp<OutsideParamList, 'LoginView'>>();
 
-	const {
-		params: { title }
-	} = useRoute<RouteProp<OutsideParamList, 'LoginView'>>();
+	const route = useRoute<RouteProp<OutsideParamList, 'LoginView'>>();
+	const title = route.params?.title;
 
 	const { Accounts_ShowFormLogin } = useAppSelector(state => ({
 		Accounts_ShowFormLogin: state.settings.Accounts_ShowFormLogin as boolean
 	}));
 
-	useLayoutEffect(() => {
-		navigation.setOptions({
-			title: title ?? 'Rocket.Chat',
-			headerRight: () => <HeaderButton.Legal testID='login-view-more' navigation={navigation} />
-		});
-	}, [navigation, title]);
+	// useLayoutEffect(() => {
+	// 	navigation.setOptions({
+	// 		title: title ?? 'Rocket.Chat',
+	// 		headerRight: () => <HeaderButton.Legal testID='login-view-more' navigation={navigation} />
+	// 	});
+	// }, [navigation, title]);
 
 	return (
 		<FormContainer testID='login-view'>
@@ -34,6 +33,14 @@ const LoginView = () => {
 				{Accounts_ShowFormLogin ? <UserForm /> : null}
 			</FormContainerInner>
 		</FormContainer>
+		// <FormContainer testID='login-view' contentContainerStyle={styles.centeredScroll}>
+		// 	<FormContainerInner>
+		// 		<View style={styles.contentWrapper}>
+    //       <LoginServices/>
+    //       <UserForm />
+		// 		</View>
+		// 	</FormContainerInner>
+		// </FormContainer>
 	);
 };
 

@@ -25,8 +25,8 @@ const AppVersion = React.memo(() => {
 	return (
 		<View style={styles.container}>
 			<Text style={[styles.text, { color: colors.fontSecondaryInfo }]}>
-				{I18n.t('Version_no', { version: '' })}
-				<Text style={styles.bold}>{getReadableVersion}</Text>
+				{/* {I18n.t('Version_no', { version: '1.0' })} */}
+				{/* <Text style={styles.bold}>{getReadableVersion}</Text> */}
 			</Text>
 		</View>
 	);

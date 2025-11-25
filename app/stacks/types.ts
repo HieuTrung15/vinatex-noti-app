@@ -299,10 +299,12 @@ export type InsideStackParamList = {
 export type OutsideParamList = {
 	NewServerView: undefined;
 	WorkspaceView: undefined;
-	LoginView: {
-		title: string;
-		username?: string;
-	};
+	LoginView:
+		| undefined
+		| {
+				title?: string;
+				username?: string;
+		  };
 	ForgotPasswordView: {
 		title: string;
 	};

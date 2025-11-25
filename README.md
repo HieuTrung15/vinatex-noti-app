@@ -19,7 +19,7 @@ Check [our docs](https://developer.rocket.chat/docs/mobile-app) for  beta and Ex
 
 [Github Issues](https://github.com/RocketChat/Rocket.Chat.ReactNative/issues) are used to track todos, bugs, feature requests, and more.
 
-Also check the [#react-native](https://open.rocket.chat/channel/react-native) community on [open.rocket.chat](https://open.rocket.chat). We'd like to help.
+Also check the [#react-native](https://chat.vinatex.com.vn/channel/react-native) community on [chat.vinatex.com.vn](https://chat.vinatex.com.vn). We'd like to help.
 
 ## Contributing
 

@@ -488,7 +488,7 @@ exports[`Story Snapshots: Alerts should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -1126,7 +1126,7 @@ exports[`Story Snapshots: Alerts should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -1804,7 +1804,7 @@ exports[`Story Snapshots: Alerts should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -2482,7 +2482,7 @@ exports[`Story Snapshots: Alerts should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -3160,7 +3160,7 @@ exports[`Story Snapshots: Alerts should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -3838,7 +3838,7 @@ exports[`Story Snapshots: Alerts should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -4516,7 +4516,7 @@ exports[`Story Snapshots: Alerts should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -5194,7 +5194,7 @@ exports[`Story Snapshots: Alerts should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -5872,7 +5872,7 @@ exports[`Story Snapshots: Alerts should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -6550,7 +6550,7 @@ exports[`Story Snapshots: Alerts should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -7228,7 +7228,7 @@ exports[`Story Snapshots: Alerts should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -7910,7 +7910,7 @@ exports[`Story Snapshots: Basic should match snapshot 1`] = `
                     "headers": {
                       "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                     },
-                    "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=96",
+                    "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=96",
                   },
                 ]
               }
@@ -8537,7 +8537,7 @@ exports[`Story Snapshots: CondensedRoomItem should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=72",
+                      "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=72",
                     },
                   ]
                 }
@@ -9215,7 +9215,7 @@ exports[`Story Snapshots: CondensedRoomItem should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=72",
+                      "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=72",
                     },
                   ]
                 }
@@ -9893,7 +9893,7 @@ exports[`Story Snapshots: CondensedRoomItem should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/@rocket.cat?format=png&size=72",
+                      "uri": "https://chat.vinatex.com.vn/avatar/@rocket.cat?format=png&size=72",
                     },
                   ]
                 }
@@ -14323,7 +14323,7 @@ exports[`Story Snapshots: LastMessage should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -14977,7 +14977,7 @@ exports[`Story Snapshots: LastMessage should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -15631,7 +15631,7 @@ exports[`Story Snapshots: LastMessage should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -16285,7 +16285,7 @@ exports[`Story Snapshots: LastMessage should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -16939,7 +16939,7 @@ exports[`Story Snapshots: LastMessage should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -17648,7 +17648,7 @@ exports[`Story Snapshots: LastMessage should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -18357,7 +18357,7 @@ exports[`Story Snapshots: LastMessage should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -19071,7 +19071,7 @@ exports[`Story Snapshots: OmnichannelIcon should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/@rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/@rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -19694,7 +19694,7 @@ exports[`Story Snapshots: OmnichannelIcon should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/@rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/@rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -20317,7 +20317,7 @@ exports[`Story Snapshots: OmnichannelIcon should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/@rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/@rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -20940,7 +20940,7 @@ exports[`Story Snapshots: OmnichannelIcon should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/@rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/@rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -21563,7 +21563,7 @@ exports[`Story Snapshots: OmnichannelIcon should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/@rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/@rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -22186,7 +22186,7 @@ exports[`Story Snapshots: OmnichannelIcon should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/@rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/@rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -22809,7 +22809,7 @@ exports[`Story Snapshots: OmnichannelIcon should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/@rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/@rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -23432,7 +23432,7 @@ exports[`Story Snapshots: OmnichannelIcon should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/@rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/@rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -24055,7 +24055,7 @@ exports[`Story Snapshots: OmnichannelIcon should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/@rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/@rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -24678,7 +24678,7 @@ exports[`Story Snapshots: OmnichannelIcon should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/@rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/@rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -25306,7 +25306,7 @@ exports[`Story Snapshots: Tag should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -25965,7 +25965,7 @@ exports[`Story Snapshots: Tag should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -26656,7 +26656,7 @@ exports[`Story Snapshots: Tag should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -27315,7 +27315,7 @@ exports[`Story Snapshots: Tag should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -28010,7 +28010,7 @@ exports[`Story Snapshots: Touch should match snapshot 1`] = `
                     "headers": {
                       "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                     },
-                    "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=96",
+                    "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=96",
                   },
                 ]
               }
@@ -28637,7 +28637,7 @@ exports[`Story Snapshots: Type should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -29267,7 +29267,7 @@ exports[`Story Snapshots: Type should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/@rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/@rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -29890,7 +29890,7 @@ exports[`Story Snapshots: Type should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/@rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/@rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -30513,7 +30513,7 @@ exports[`Story Snapshots: Type should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/@rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/@rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -31136,7 +31136,7 @@ exports[`Story Snapshots: Type should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/@rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/@rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -31759,7 +31759,7 @@ exports[`Story Snapshots: Type should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -32382,7 +32382,7 @@ exports[`Story Snapshots: Type should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/@rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/@rocket.cat?format=png&size=96",
                     },
                   ]
                 }
@@ -33010,7 +33010,7 @@ exports[`Story Snapshots: User should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/diego.mello?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/diego.mello?format=png&size=96",
                     },
                   ]
                 }
@@ -33640,7 +33640,7 @@ exports[`Story Snapshots: User should match snapshot 1`] = `
                       "headers": {
                         "User-Agent": "RC Mobile; ios unknown; vunknown (unknown)",
                       },
-                      "uri": "https://open.rocket.chat/avatar/rocket.cat?format=png&size=96",
+                      "uri": "https://chat.vinatex.com.vn/avatar/rocket.cat?format=png&size=96",
                     },
                   ]
                 }

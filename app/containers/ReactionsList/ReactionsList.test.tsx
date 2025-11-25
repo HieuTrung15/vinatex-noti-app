@@ -103,7 +103,7 @@ const mockStore = createStore(
 				}
 			},
 			server: {
-				server: 'https://open.rocket.chat',
+				server: 'https://chat.vinatex.com.vn',
 				version: '6.0.0'
 			}
 		}
@@ -183,7 +183,7 @@ describe('ReactionsList Integration Tests', () => {
 						}
 					},
 					server: {
-						server: 'https://open.rocket.chat',
+						server: 'https://chat.vinatex.com.vn',
 						version: '6.0.0'
 					}
 				}

@@ -34,7 +34,7 @@ jest.mock('../../lib/services/restApi', () => ({
 const user = userEvent.setup();
 
 const initialStoreState = () => {
-	const baseUrl = 'https://open.rocket.chat';
+	const baseUrl = 'https://chat.vinatex.com.vn';
 	mockedStore.dispatch(selectServerRequest(baseUrl, '6.4.0'));
 	mockedStore.dispatch(
 		setUser({

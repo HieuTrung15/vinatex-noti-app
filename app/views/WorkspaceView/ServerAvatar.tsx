@@ -8,6 +8,7 @@ import { useTheme } from '../../theme';
 const SIZE = 96;
 const MARGIN_TOP = isTablet ? 0 : 64;
 const BORDER_RADIUS = 8;
+const WORKSPACE_LOGO = require('../../static/images/logo.png');
 
 const styles = StyleSheet.create({
 	container: {
@@ -24,18 +25,13 @@ const styles = StyleSheet.create({
 	}
 });
 
-interface IServerAvatar {
-	url: string;
-	image: string;
-}
-
 // TODO: missing skeleton
-const ServerAvatar = React.memo(({ url, image }: IServerAvatar) => {
+const ServerAvatar = React.memo(() => {
 	const { colors } = useTheme();
 
 	return (
 		<View style={styles.container}>
-			{image && <Image style={[styles.image, { borderColor: colors.strokeLight }]} source={{ uri: `${url}/${image}` }} />}
+			<Image style={[styles.image, { borderColor: colors.strokeLight }]} source={WORKSPACE_LOGO} contentFit='contain' />
 		</View>
 	);
 });
