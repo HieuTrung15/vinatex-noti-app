@@ -105,7 +105,7 @@ const AccessibilityAndAppearanceView = () => {
 					/>
 					<List.Separator />
 				</List.Section>
-				<List.Section>
+				{/* <List.Section>
 					<List.Separator />
 					<ListPicker
 						onChangeValue={value => {
@@ -115,7 +115,7 @@ const AccessibilityAndAppearanceView = () => {
 						value={alertDisplayType}
 					/>
 					<List.Separator />
-				</List.Section>
+				</List.Section> */}
 			</List.Container>
 		</SafeAreaView>
 	);
