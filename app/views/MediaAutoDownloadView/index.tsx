@@ -35,11 +35,11 @@ const MediaAutoDownload = () => {
 			<List.Container>
 				<List.Section>
 					<List.Separator />
-					<ListPicker onChangeValue={setImagesPreference} value={imagesPreference} title='Image' />
+					<ListPicker onChangeValue={setImagesPreference} value={imagesPreference} title={i18n.t('Image')} />
 					<List.Separator />
-					<ListPicker onChangeValue={setVideoPreference} value={videoPreference} title='Video' />
+					<ListPicker onChangeValue={setVideoPreference} value={videoPreference} title={i18n.t('Video')} />
 					<List.Separator />
-					<ListPicker onChangeValue={setAudioPreference} value={audioPreference} title='Audio' />
+					<ListPicker onChangeValue={setAudioPreference} value={audioPreference} title={i18n.t('Audio')} />
 					<List.Separator />
 				</List.Section>
 			</List.Container>

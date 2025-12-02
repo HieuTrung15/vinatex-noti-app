@@ -1,6 +1,5 @@
 import i18n from 'i18n-js';
 import { I18nManager } from 'react-native';
-import * as RNLocalize from 'react-native-localize';
 import moment from 'moment';
 import 'moment/min/locales';
 
@@ -171,10 +170,10 @@ export const setLanguage = (l: string) => {
 	// server uses lowercase pattern (pt-br), but we're forced to use standard pattern (pt-BR)
 	let locale = LANGUAGES.find(ll => ll.value.toLowerCase() === l.toLowerCase())?.value;
 	if (!locale) {
-		locale = 'en';
+		locale = 'vi';
 	}
-	// don't go forward if it's the same language and default language (en) was setup already
-	if (i18n.locale === locale && i18n.translations?.en) {
+	// don't go forward if it's the same language and default language (vi) was setup already
+	if (i18n.locale === locale && i18n.translations?.vi) {
 		return;
 	}
 	i18n.locale = locale;
@@ -187,10 +186,11 @@ export const setLanguage = (l: string) => {
 	moment.locale(toMomentLocale(locale));
 };
 
-i18n.translations = { en: translations.en?.() };
-const defaultLanguage = { languageTag: 'en', isRTL: false };
-const availableLanguages = Object.keys(translations);
-const { languageTag } = RNLocalize.findBestAvailableLanguage(availableLanguages) || defaultLanguage;
+i18n.translations = { vi: translations.vi?.() };
+const defaultLanguage = { languageTag: 'vi', isRTL: false };
+i18n.defaultLocale = defaultLanguage.languageTag;
+// const availableLanguages = Object.keys(translations);
+const { languageTag } = defaultLanguage;
 
 // @ts-ignore
 i18n.isTranslated = (text?: string) => text in vietnamJson;

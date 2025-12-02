@@ -269,13 +269,13 @@ const ProfileView = ({ navigation }: IProfileViewProps): React.ReactElement => {
 				/>
 			);
 		}
-		options.headerRight = () => (
-			<HeaderButton.Preferences
-				accessibilityLabel={I18n.t('Preferences')}
-				onPress={() => navigation?.navigate('UserPreferencesView')}
-				testID='preferences-view-open'
-			/>
-		);
+		// options.headerRight = () => (
+			// <HeaderButton.Preferences
+			// 	accessibilityLabel={I18n.t('Preferences')}
+			// 	onPress={() => navigation?.navigate('UserPreferencesView')}
+			// 	testID='preferences-view-open'
+			// />
+		// );
 
 		navigation.setOptions(options);
 	}, []);

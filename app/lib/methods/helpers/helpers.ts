@@ -41,11 +41,16 @@ export function getUidDirectMessage(room) {
 }
 
 export function getRoomTitle(room) {
-	const { UI_Use_Real_Name: useRealName, UI_Allow_room_names_with_special_chars: allowSpecialChars } =
-		reduxStore.getState().settings;
+	const { UI_Allow_room_names_with_special_chars: allowSpecialChars } = reduxStore.getState().settings;
 	const { username } = reduxStore.getState().login.user;
+	const fullName = room?.fname || room?.name;
+
 	if ('federated' in room && room.federated === true) {
-		return room.fname;
+		return fullName;
+	}
+	if (room.t === 'd') {
+		// DM: luôn dùng full name nếu có
+		return fullName;
 	}
 	if (isGroupChat(room) && !(room.name && room.name.length) && room.usernames) {
 		return room.usernames
@@ -54,9 +59,9 @@ export function getRoomTitle(room) {
 			.join(', ');
 	}
 	if (allowSpecialChars && room.t !== 'd') {
-		return room.fname || room.name;
+		return fullName;
 	}
-	return ((room?.prid || useRealName) && room?.fname) || room?.name;
+	return fullName;
 }
 
 export function getSenderName(sender) {
