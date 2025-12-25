@@ -5,6 +5,7 @@ import * as HeaderButton from '../../../containers/Header/components/HeaderButto
 import i18n from '../../../i18n';
 import { useAppSelector } from '../../../lib/hooks/useAppSelector';
 import { usePermissions } from '../../../lib/hooks/usePermissions';
+import { useTotalUnreadCount } from '../../../lib/hooks/useTotalUnreadCount';
 import { isTablet } from '../../../lib/methods/helpers';
 import { events, logEvent } from '../../../lib/methods/helpers/log';
 import { getUserSelector } from '../../../selectors/login';
@@ -23,6 +24,7 @@ export const useHeader = () => {
 	const navigation = useNavigation<any>();
 	const issuesWithNotifications = useAppSelector(state => state.troubleshootingNotification.issuesWithNotifications);
 	const notificationPresenceCap = useAppSelector(state => state.app.notificationPresenceCap);
+	const totalUnreadCount = useTotalUnreadCount();
 	const { colors } = useTheme();
 	const [
 		createPublicChannelPermission,
@@ -51,6 +53,11 @@ export const useHeader = () => {
 		}
 		return null;
 	}, [supportedVersionsStatus, notificationPresenceCap, colors]);
+
+	const getUnreadBadge = useCallback(
+		() => <HeaderButton.BadgeUnread unread={totalUnreadCount} />,
+		[totalUnreadCount]
+	);
 
 	const goDirectory = useCallback(() => {
 		logEvent(events.RL_GO_DIRECTORY);
@@ -144,6 +151,7 @@ export const useHeader = () => {
 						onPress={goDirectory}
 						testID='rooms-list-view-directory'
 						disabled={disabled}
+						badge={getUnreadBadge}
 					/>
 				</HeaderButton.Container>
 			)
@@ -164,10 +172,12 @@ export const useHeader = () => {
 		goDirectory,
 		navigateToPushTroubleshootView,
 		getBadge,
+		getUnreadBadge,
 		goToNewMessage,
 		startSearch,
 		stopSearch,
-		search
+		search,
+		totalUnreadCount
 	]);
 
 	return { options };

@@ -15,6 +15,7 @@ import InAppNotification from './containers/InAppNotification';
 import Loading from './containers/Loading';
 import Toast from './containers/Toast';
 import TwoFactor from './containers/TwoFactor';
+import AppIconBadgeUpdater from './containers/AppIconBadgeUpdater';
 import { type IThemePreference } from './definitions/ITheme';
 import { DimensionsContext } from './dimensions';
 import { colors, themes } from './lib/constants/colors';
@@ -228,12 +229,13 @@ export default class Root extends React.Component<{}, IState> {
 								}}>
 								<GestureHandlerRootView>
 									<KeyboardProvider>
-										<ActionSheetProvider>
-											<StatusBar />
-											<AppContainer />
-											<TwoFactor />
-											<ScreenLockedView />
-											<ChangePasscodeView />
+											<ActionSheetProvider>
+												<AppIconBadgeUpdater />
+												<StatusBar />
+												<AppContainer />
+												<TwoFactor />
+												<ScreenLockedView />
+												<ChangePasscodeView />
 											<InAppNotification />
 											<Toast />
 											<Loading />
